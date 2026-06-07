@@ -21,8 +21,11 @@ end
 # downgrading sass-embedded because the newer version requires a 
 # better OS than the Mac I'm developing on lol
 gem "sass-embedded", "1.97.3"
+# downgrading sass-converter to avoid all the @import warnings in terminal
+gem "jekyll-sass-converter", "~> 2.0"
 
 gem "jekyll-theme-minimal"
+
 
 # if you'd like to preview your site on your computer, add the following to your site's Gemfile:
 # https://github.com/pages-themes/minimal
