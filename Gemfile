@@ -9,7 +9,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 4.4.1"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.5"
+# gem "minima", "~> 2.5"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
@@ -17,6 +17,16 @@ gem "minima", "~> 2.5"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
 end
+
+# downgrading sass-embedded because the newer version requires a 
+# better OS than the Mac I'm developing on lol
+gem "sass-embedded", "1.97.3"
+
+gem "jekyll-theme-minimal"
+
+# if you'd like to preview your site on your computer, add the following to your site's Gemfile:
+# https://github.com/pages-themes/minimal
+# gem "github-pages", group: :jekyll_plugins
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
