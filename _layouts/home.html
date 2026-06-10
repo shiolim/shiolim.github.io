@@ -22,8 +22,9 @@
       <p><small>{{ page.name_caption }}</small></p>
       
       <img src="/assets/img/profile_pic.jpeg" alt="Headshot of Shio Lim" />
+      <br/>
 
-      <p>{{ site.description | default: site.github.project_tagline }}</p>
+      <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
       {% if site.github.is_project_page %}
       <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{

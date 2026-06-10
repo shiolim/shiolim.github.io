@@ -22,7 +22,9 @@ title: Shio Lim
 logo: ./logo.png
 email: csl235@cornell.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  hi i shio doo doo head lim
+  PhD candidate in the Department of Sociology at Cornell University 
+  working in the areas of mental health, culture, 
+  science and technology studies, and religion/spirituality.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://shiolim.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
