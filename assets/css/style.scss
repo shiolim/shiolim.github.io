@@ -27,6 +27,10 @@ body {
   font: 16px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+p:last-child {
+  margin-bottom: 0;
+}
+
 a:hover,
 a:focus {
   color: #069;
@@ -37,6 +41,7 @@ a:focus {
 #footer-links {
   padding-inline-start: 0;
   list-style-type: none;
+  margin-bottom: 0;
 }
 
 @media print, screen and (max-width: 960px) {
